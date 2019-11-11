@@ -1,0 +1,6 @@
+framework module Pods_LTVestbagDemo {
+  umbrella header "Pods-LTVestbagDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

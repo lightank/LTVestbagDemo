@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D04C88F23783CF2009832A7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D04C88C23783CF2009832A7 /* Reachability.m */; };
+		3D6561412377AF1A00398B89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6561402377AF1A00398B89 /* AppDelegate.m */; };
+		3D6561472377AF1A00398B89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6561462377AF1A00398B89 /* ViewController.m */; };
+		3D65614C2377AF1B00398B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D65614B2377AF1B00398B89 /* Assets.xcassets */; };
+		3D65614F2377AF1B00398B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D65614D2377AF1B00398B89 /* LaunchScreen.storyboard */; };
+		3D6561522377AF1B00398B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6561512377AF1B00398B89 /* main.m */; };
+		3D65615D2377CABE00398B89 /* LTLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65615C2377CABE00398B89 /* LTLaunchViewController.m */; };
+		FE90179DC4BE2ECA622EEB01 /* Pods_LTVestbagDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D0970175CA543C82DFA996 /* Pods_LTVestbagDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09D0970175CA543C82DFA996 /* Pods_LTVestbagDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTVestbagDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C037C6446647118C10F2407 /* Pods-LTVestbagDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTVestbagDemo.debug.xcconfig"; path = "Target Support Files/Pods-LTVestbagDemo/Pods-LTVestbagDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3D04C88C23783CF2009832A7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3D04C88E23783CF2009832A7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3D65613C2377AF1A00398B89 /* LTVestbagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTVestbagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D65613F2377AF1A00398B89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D6561402377AF1A00398B89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D6561452377AF1A00398B89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D6561462377AF1A00398B89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D65614B2377AF1B00398B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D65614E2377AF1B00398B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D6561502377AF1B00398B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6561512377AF1B00398B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D65615B2377CABE00398B89 /* LTLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLaunchViewController.h; sourceTree = "<group>"; };
+		3D65615C2377CABE00398B89 /* LTLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTLaunchViewController.m; sourceTree = "<group>"; };
+		81F5DF0C5656CECC5D3F9DF4 /* Pods-LTVestbagDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTVestbagDemo.release.xcconfig"; path = "Target Support Files/Pods-LTVestbagDemo/Pods-LTVestbagDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6561392377AF1A00398B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE90179DC4BE2ECA622EEB01 /* Pods_LTVestbagDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D04C88A23783CD5009832A7 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				3D04C88B23783CF2009832A7 /* Reachability */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		3D04C88B23783CF2009832A7 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3D04C88E23783CF2009832A7 /* Reachability.h */,
+				3D04C88C23783CF2009832A7 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		3D6561332377AF1A00398B89 = {
+			isa = PBXGroup;
+			children = (
+				3D65613E2377AF1A00398B89 /* LTVestbagDemo */,
+				3D65613D2377AF1A00398B89 /* Products */,
+				51F081A612DD42C3FB5A887F /* Pods */,
+				AAB9D032DDE95BB3503808EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D65613D2377AF1A00398B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D65613C2377AF1A00398B89 /* LTVestbagDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D65613E2377AF1A00398B89 /* LTVestbagDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D04C88A23783CD5009832A7 /* Vender */,
+				3D6561582377CA7900398B89 /* Modules */,
+				3D65613F2377AF1A00398B89 /* AppDelegate.h */,
+				3D6561402377AF1A00398B89 /* AppDelegate.m */,
+				3D6561452377AF1A00398B89 /* ViewController.h */,
+				3D6561462377AF1A00398B89 /* ViewController.m */,
+				3D65614B2377AF1B00398B89 /* Assets.xcassets */,
+				3D65614D2377AF1B00398B89 /* LaunchScreen.storyboard */,
+				3D6561502377AF1B00398B89 /* Info.plist */,
+				3D6561512377AF1B00398B89 /* main.m */,
+			);
+			path = LTVestbagDemo;
+			sourceTree = "<group>";
+		};
+		3D6561582377CA7900398B89 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3D6561592377CA8400398B89 /* Launch */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3D6561592377CA8400398B89 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				3D65615A2377CA8700398B89 /* Controller */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		3D65615A2377CA8700398B89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D65615B2377CABE00398B89 /* LTLaunchViewController.h */,
+				3D65615C2377CABE00398B89 /* LTLaunchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51F081A612DD42C3FB5A887F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C037C6446647118C10F2407 /* Pods-LTVestbagDemo.debug.xcconfig */,
+				81F5DF0C5656CECC5D3F9DF4 /* Pods-LTVestbagDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAB9D032DDE95BB3503808EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D0970175CA543C82DFA996 /* Pods_LTVestbagDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D65613B2377AF1A00398B89 /* LTVestbagDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6561552377AF1B00398B89 /* Build configuration list for PBXNativeTarget "LTVestbagDemo" */;
+			buildPhases = (
+				A600008CA2AC595F03737463 /* [CP] Check Pods Manifest.lock */,
+				3D6561382377AF1A00398B89 /* Sources */,
+				3D6561392377AF1A00398B89 /* Frameworks */,
+				3D65613A2377AF1A00398B89 /* Resources */,
+				146928FADDF5EEEF0658C85F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTVestbagDemo;
+			productName = LTVestbagDemo;
+			productReference = 3D65613C2377AF1A00398B89 /* LTVestbagDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D6561342377AF1A00398B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = huanyu.li;
+				TargetAttributes = {
+					3D65613B2377AF1A00398B89 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D6561372377AF1A00398B89 /* Build configuration list for PBXProject "LTVestbagDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D6561332377AF1A00398B89;
+			productRefGroup = 3D65613D2377AF1A00398B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D65613B2377AF1A00398B89 /* LTVestbagDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D65613A2377AF1A00398B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D65614F2377AF1B00398B89 /* LaunchScreen.storyboard in Resources */,
+				3D65614C2377AF1B00398B89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		146928FADDF5EEEF0658C85F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTVestbagDemo/Pods-LTVestbagDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTVestbagDemo/Pods-LTVestbagDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LTVestbagDemo/Pods-LTVestbagDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A600008CA2AC595F03737463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTVestbagDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D6561382377AF1A00398B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6561472377AF1A00398B89 /* ViewController.m in Sources */,
+				3D6561412377AF1A00398B89 /* AppDelegate.m in Sources */,
+				3D6561522377AF1B00398B89 /* main.m in Sources */,
+				3D04C88F23783CF2009832A7 /* Reachability.m in Sources */,
+				3D65615D2377CABE00398B89 /* LTLaunchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D65614D2377AF1B00398B89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D65614E2377AF1B00398B89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6561532377AF1B00398B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D6561542377AF1B00398B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6561562377AF1B00398B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C037C6446647118C10F2407 /* Pods-LTVestbagDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LTVestbagDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanyu.li.LTVestbagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D6561572377AF1B00398B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F5DF0C5656CECC5D3F9DF4 /* Pods-LTVestbagDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LTVestbagDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanyu.li.LTVestbagDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D6561372377AF1A00398B89 /* Build configuration list for PBXProject "LTVestbagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6561532377AF1B00398B89 /* Debug */,
+				3D6561542377AF1B00398B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6561552377AF1B00398B89 /* Build configuration list for PBXNativeTarget "LTVestbagDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6561562377AF1B00398B89 /* Debug */,
+				3D6561572377AF1B00398B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D6561342377AF1A00398B89 /* Project object */;
+}
